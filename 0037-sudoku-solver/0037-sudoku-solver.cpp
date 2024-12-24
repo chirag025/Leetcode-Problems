@@ -14,8 +14,7 @@ public:
         // 3x3 grid
         for(int i = rs; i<(rs+3); i++){
             for(int j = cs; j<(cs+3); j++){
-                if(board[rs][j] == num) return false;
-                if(board[i][cs] == num) return false;
+                if(board[i][j] == num) return false;
             }
         }
 
